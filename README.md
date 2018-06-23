@@ -6,7 +6,7 @@ Github repo for training accents using common voice dataset.
 
 First, make sure ou have roughy 40-50 GB of hard disk space on your computer. 
 
-Go to [this link]() and download the data with the arrow on the top right corner of the page. 
+Go to [this link](https://drive.google.com/open?id=1lqBaDcalVuUtvBNvYiPjP5ZyvNydERX0) and download the data with the arrow on the top right corner of the page. 
 
 Feel free to explore and use different datasets as well. If you find any other datasets that are released under an open-source license, let us know and we'll post them here. 
 
@@ -26,24 +26,28 @@ The data is arranged into many different accent types:
 * new zealand | new zealand controls
 * phillipines | phillipines controls
 * scotland | scotland controls
-* signapore | singapore controls
+* singapore | singapore controls
 * southatlandtic | southatlandtic controls
 * us | us controls
 * wales | wales controls
 
-Control groups are provided for each variable groups which is roughly an equal number of samples randomized from all the other groups. Both .wav files and .json feature arrays are provided to help you model the data. The .json feature arrays is composed of audio features (mfcc coefficients 1-13 and mfcc delta coefficients) extracted using the librosa library. Note these features can be used as a guide and you can come up with new feature embeddings to get better accuracy with your models (e.g. language models may be important here to reflect regional differences in speakers). 
+Control groups are provided for each variable group to help you model the data into binary classes. The control groups are a mix of all other groups other than the variable group (e.g. african controls is a mix of australian, bermuda, canada, england, hongkong, indian, ireland, malaysia, new zealand, phillipines, scotland, signalpore, southatlandtic, us, and wales accents).
+
+Both .wav files and .json feature arrays are provided. The .json feature arrays is composed of audio features (mfcc coefficients 1-13 and mfcc delta coefficients) extracted using the librosa library. Note these features can be used as a guide and you can come up with new feature embeddings to get better accuracy with your models (e.g. language models may be important here to reflect regional differences in speakers). 
+
+Please let us know if you need anything else to help model the data. 
 
 ## goals / what to beat 
 
 Here are some goals (in terms of accuracy) to beat with the project. 
 
-| Age model name | Accuracy | Standard Deviation | Modeltype | 
+| Accent model name | Accuracy | Standard Deviation | Modeltype | 
 | ------------- | ------------- | ------------- | ------------- |
-| us.pickle | 71.1% | +/- 1.0% | knn |
 | indian.pickle | 79.9% | +/- 3.0% | knn | 
-| england.pickle | 72.9% | +/- 0.8% | knn | 
-| australia.pickle | 78.9% | +/- 1.3% | knn |
 | canada.pickle | 77.9% | +/- 3.0% | knn| 
+| australia.pickle | 78.9% | +/- 1.3% | knn |
+| england.pickle | 72.9% | +/- 0.8% | knn | 
+| us.pickle | 71.1% | +/- 1.0% | knn |
 
 ## references 
 * [Common Voice Dataset](https://www.kaggle.com/mozillaorg/common-voice)
