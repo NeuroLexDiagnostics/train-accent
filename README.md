@@ -1,6 +1,6 @@
 # train-accent
 
-Github repo for training accents using common voice dataset. 
+Github repo for training accents using the [Common Voice dataset](https://www.kaggle.com/mozillaorg/common-voice). 
 
 ## how to download data
 
@@ -48,6 +48,18 @@ Here are some goals (in terms of accuracy) to beat with the project.
 | australia.pickle | 78.9% | +/- 1.3% | knn |
 | england.pickle | 72.9% | +/- 0.8% | knn | 
 | us.pickle | 71.1% | +/- 1.0% | knn |
+
+## future work / datasets
+
+We're looking for some data from these countries:
+
+* germany	
+* china
+* south korea
+* portugal	
+* spain	
+
+If you have data for these particular countries, let us know and we can build models to put into the pipeline.
 
 ## references 
 * [Common Voice Dataset](https://www.kaggle.com/mozillaorg/common-voice)
