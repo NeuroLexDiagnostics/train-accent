@@ -2,6 +2,14 @@
 
 Github repo for training accents using the [Common Voice dataset](https://www.kaggle.com/mozillaorg/common-voice). 
 
+## team members
+
+Active members of the team working on this repo include:
+
+* Madeline Pandos (George Washington University)
+* Haoxin Li (Georgia Tech) 
+* Jim Schwoebel (Boston, MA) 
+
 ## how to download data
 
 First, make sure ou have roughy 40-50 GB of hard disk space on your computer. 
