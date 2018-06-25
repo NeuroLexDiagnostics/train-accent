@@ -78,5 +78,5 @@ If you have data for these particular countries, let us know and we can build mo
 * [librosa](https://librosa.github.io/librosa/core.html#core)
 * [spacy](https://spacy.io/)
 ### modeling
-* [sci-kit learn](http://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html#sphx-glr-auto-examples-classification-plot-digits-classification-py)
+* [scikit-learn](http://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html#sphx-glr-auto-examples-classification-plot-digits-classification-py)
 * [keras](https://keras.io/)
