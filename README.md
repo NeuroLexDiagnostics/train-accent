@@ -71,5 +71,7 @@ If you have data for these particular countries, let us know and we can build mo
 
 ## references 
 * [Common Voice Dataset](https://www.kaggle.com/mozillaorg/common-voice)
+* [Pyaudioanalysis](https://github.com/tyiannak/pyAudioAnalysis)
+* [OpenSmile](https://audeering.com/technology/opensmile/)
 * [librosa](https://librosa.github.io/librosa/core.html#core)
 * [spacy](https://spacy.io/)
