@@ -70,8 +70,13 @@ We're looking for some data from these countries:
 If you have data for these particular countries, let us know and we can build models to put into the pipeline.
 
 ## references 
-* [Common Voice Dataset](https://www.kaggle.com/mozillaorg/common-voice)
-* [Pyaudioanalysis](https://github.com/tyiannak/pyAudioAnalysis)
-* [OpenSmile](https://audeering.com/technology/opensmile/)
+### datasets 
+* [common voice dataset](https://www.kaggle.com/mozillaorg/common-voice)
+### featurization 
+* [pyaudioanalysis](https://github.com/tyiannak/pyAudioAnalysis)
+* [openSmile](https://audeering.com/technology/opensmile/)
 * [librosa](https://librosa.github.io/librosa/core.html#core)
 * [spacy](https://spacy.io/)
+### modeling
+* [sci-kit learn](http://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html#sphx-glr-auto-examples-classification-plot-digits-classification-py)
+* [keras](https://keras.io/)
