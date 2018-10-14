@@ -12,7 +12,7 @@ Active members of the team working on this repo include:
 
 ## how to download data
 
-First, make sure ou have roughy 40-50 GB of hard disk space on your computer. 
+First, make sure you have roughy 40-50 GB of hard disk space on your computer. 
 
 Go to [this link](https://drive.google.com/open?id=1lqBaDcalVuUtvBNvYiPjP5ZyvNydERX0) and download the data with the arrow on the top right corner of the page. 
 
